@@ -244,13 +244,13 @@ section.exhibitions h1{
 }
 
 
-section.explore-heading h1{
+main .explore-heading h1{
     font-family: 'Lilita One', cursive;
-    font-size: 5vw;
+    font-size: 8vw;
     padding: 10px;
 }
 
-article.explore-article h1{
+article.explore-article h2{
     font-size: 7vw;
     padding-top: 20px;
 }
@@ -541,7 +541,7 @@ footer .footer-bottom p{
     margin: 0 auto;
 }
 
-.explore-article h1{
+.explore-article h2{
     font-family: 'Zen Loop', cursive;
     font-size: 4vw;
 }
