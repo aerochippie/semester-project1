@@ -204,6 +204,9 @@ section.exhibitions{
     flex-direction: column;
     display: flex;
 }
+article.exhibition img{
+    max-width: 100%;
+}
 
 article.exhibition{
     display: flex;
