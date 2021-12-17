@@ -22,15 +22,19 @@
         <a href="index.html"><p> explore.togheter </p></a>
     </div>
 
-<div class="navigation">
-        <nav>
-            <ul>
+    <div class="navigation">
+        <nav class="navbar"  id="navi-list">
+            <ul >
                 <li><a href="explore.html"> Explore </a></li>
                 <li><a href="exhibitions.html"> Exhibitions </a></li>
                 <li><a href="visitus.html"> Visit Us </a></li>
                 <li><a href="support.html"> Support </a></li>
             </ul>
+            
         </nav>
+        <div class="menu" id="toggle-button">
+            <div class="menu-line" id="toggle-button"></div>
+            </div>
     </div>
 
         <img src="images/heroimg.png" alt="hero-image">
@@ -116,7 +120,14 @@
 </div>
     </footer>
 
-
+    <script>
+        const toggleButton = document.getElementById('toggle-button')
+        const naviList = document.getElementById('navi-list')
+    
+        toggleButton.addEventListener('click', () =>{
+            naviList.classList.toggle('active');
+        })
+    </script>
 
 
     <script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js"></script>

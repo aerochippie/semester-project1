@@ -76,7 +76,6 @@ nav {
   background-color: #0405156e;
   margin: 0 auto;
   width: 100vw;
-  display: flex;
 }
 nav ul {
   display: flex;
@@ -112,7 +111,7 @@ display: none;
     margin-bottom: 4px;
 }
 
-@media all and (max-width:480px){
+@media all and (max-width:700px){
     nav{
         flex-direction: column;
         position: relative;
@@ -143,13 +142,137 @@ nav ul{
     padding-top: 150px;
 }
 nav li {
-font-size: 5vw;
-padding: 20px;
+    font-family: 'Lilita One', cursive;
+font-size: 9vw;
+padding: 10px;
 }
 
+nav li:hover{
+    background-color: rgba(20, 36, 85, 0.801);
+    border-radius: 0%;
+}
+section.banner {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    font-size: 3vw;
+}
+section .banner-cta{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+}
+section .banner-cta:hover{
+    transform: scale(1.05);
+}
+section .banner-tag{
+font-size: 4vw;
+}
+main .title h1{
+    width: 100vw;
+    font-size: 10vw;
+}
+
+section.articles{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+section .article{
+    text-align: center;
+    
+}
+section .article img{
+    width: 60%;
+    margin: 0 auto;
+
+}
+section .article p{
+    font-size:4vw;
+}
+
+section .article h2{
+    font-size:7vw;
+}
 .active{
     display:block;
 }
+
+section.exhibitions{
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+}
+
+article.exhibition{
+    display: flex;
+    flex-direction: column;
+    font-size: 3vw;
+}
+
+section.exhibitions h2{
+    font-size: 6vw;
+    margin: 0 auto;
+}
+
+.exhibitions-title{
+    align-self: center;
+}
+
+section.explore-articles{
+    width: 100vw;
+}
+section.exhibitions h1{
+    font-size:6vw;
+}
+
+
+section.explore-heading h1{
+    font-family: 'Lilita One', cursive;
+    font-size: 5vw;
+    padding: 10px;
+}
+
+article.explore-article h1{
+    font-size: 7vw;
+    padding-top: 20px;
+}
+article.explore-article p {
+    font-size: 3vw;
+    width: 90vw;
+}
+main .explore-heading{
+    width: 100vw;
+}
+
+
+
+
+
+
+footer .logo-area img{
+    max-width: 100px;
+    padding-bottom: 50px;
+}
+footer .about-area p{
+    font-size: 6vw;
+}
+footer .social-media i {
+    font-size: 50px;
+}
+
+footer .menu-area{
+    font-size: 3vw;
+}
+footer .footer-bottom{
+    font-size: 2vw;
+}
+
+footer .footer-bottom p{
+    font-size: 2vw;
+}
+
 }
 /**                      BANNER                **/
 
