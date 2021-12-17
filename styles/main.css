@@ -119,8 +119,8 @@ display: none;
         top: 0;
         left: 0;
         transform: none;
-        background: crimson;
-        height: 70vh;
+        background: rgb(40, 221, 182);
+        height: 100vh;
         border-radius: 0 0 400px 50px;
    display:none;
     }
